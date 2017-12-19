@@ -9,17 +9,17 @@
 <ion-content padding>
   <ion-content>
     <!-- <ion-item-group> -->
-      <ion-item-divider color="light"></ion-item-divider>
-      <ion-item>Aashqui 2(mashup)</ion-item>
-      <ion-item>aatach baya ka bavaarla</ion-item>
-      <ion-item>alka yagnik collection</ion-item>
-      <ion-item>bawara</ion-item>
-      <ion-item>bolna</ion-item>
+     
+      <ion-item (tap)="play()">Aashqui 2(mashup)</ion-item>
+      <ion-item  (tap)="play()">aatach baya ka bavaarla</ion-item>
+      <ion-item  (tap)="play()">alka yagnik collection</ion-item>
+      <ion-item  (tap)="play()">bawara</ion-item>
+      <ion-item  (tap)="play()">bolna</ion-item>
 
     <!-- </ion-item-group> -->
-    <button ion-button icon-only round (click)="playAudio()" >
-        
-   <ion-icon name="play" ></ion-icon  >
- </button  >
+<!--   
+   <ion-icon name="play"ng for=let sounddata></ion-icon  >
+ <button ion-button icon-only round (click)="playAudio()" >
+ </button  >  -->
   </ion-content>
 </ion-content>

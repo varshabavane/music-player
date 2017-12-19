@@ -16,7 +16,10 @@ export class HomePage {
     alert("He")
     
   }
-  readonly file: MediaObject = this.media.create('file.mp3');
+
   
-  
+  play(){
+    alert("hello");
+    
+  }
 }
