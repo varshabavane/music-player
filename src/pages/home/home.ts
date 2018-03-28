@@ -23,4 +23,15 @@ export class HomePage {
     this.music = this.media.create('/android_asset/www/assets/songs/zalima.mp3')
     this.music.play();
   }
+  previous(){
+    alert("hello");
+  }
+
+  next(){
+    alert("next")
+  }
+
+  pause(){
+    alert("pause")
+  }
 }
