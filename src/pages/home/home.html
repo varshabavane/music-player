@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      songs
+      Music player
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -14,33 +14,22 @@
   <ion-item (tap)="play()">alka yagnik collection</ion-item>
   <ion-item (tap)="play()">bawara</ion-item>
   <ion-item (tap)="play()">bolna</ion-item>
-  
-
-  <ion-card style="color:brown">
-    <ion-card-content>
-      <ion-list>
-    
 
   <ion-fab left bottom>
-
     <button ion-fab color="light" mini (click)="previous()">
       <ion-icon name="arrow-back"></ion-icon>
     </button>
   </ion-fab>
+
   <ion-fab right bottom>
-    <button ion-fab color="light" mini  (click)="pause()">
+    <button ion-fab color="light" mini (click)="next()">
       <ion-icon name="arrow-forward"></ion-icon>
     </button>
   </ion-fab>
+  
   <ion-fab center bottom>
-    <button ion-fab color="light" mini (click)="next()">
+    <button ion-fab color="light" mini (click)="pause()">
       <ion-icon name="puase"></ion-icon>
     </button>
   </ion-fab>
-</ion-list>
-
-
-
-</ion-card-content>
-</ion-card>
 </ion-content>

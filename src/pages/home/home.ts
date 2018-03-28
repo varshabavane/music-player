@@ -24,7 +24,7 @@ export class HomePage {
     this.music.play();
   }
   previous(){
-    alert("hello");
+    alert("prrevious");
   }
 
   next(){
